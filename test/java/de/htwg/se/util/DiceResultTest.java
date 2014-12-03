@@ -1,7 +1,4 @@
-package test.java.de.htwg.se.util;
-
-import static org.junit.Assert.*;
-import main.java.de.htwg.se.util.DiceResult;
+package java.de.htwg.se.util;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package main.java.de.htwg.se.util;
+package java.de.htwg.se.util;
 
 public class DiceResult {
 	private int dice1;
@@ -21,6 +21,7 @@ public class DiceResult {
 	public int getDice2() {
 		return dice2;
 	}
+	printf("test");
 	
 	private boolean checkDiceValue(final int dv) {
 		if (dv >= MINDICEVALUE && dv <= MAXDICEVALUE) {

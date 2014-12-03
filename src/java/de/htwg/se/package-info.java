@@ -1,8 +1,1 @@
-/**
- * 
- */
-/**
- * @author Jan
- *
- */
-package main.java.de.htwg.se;
+package java.de.htwg.se;
