@@ -1,1 +1,0 @@
-package java.de.htwg.se.util;
