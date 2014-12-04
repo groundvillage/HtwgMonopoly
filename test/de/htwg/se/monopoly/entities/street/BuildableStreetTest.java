@@ -26,4 +26,14 @@ public class BuildableStreetTest {
 		assertEquals(bStreet.getPrice(), 100);
 		assertEquals(bStreet.getHousingState(), 0);
 	}
+	
+	@Test
+	public void testUpgradeStreet() {
+		assertTrue(bStreet.upgradeStreet());
+		for (int i = 1; i < bStreet.HOUSINGSTATEMAX; i++) {
+			bStreet.upgradeStreet();
+		}
+		assertFalse(bStreet.upgradeStreet());
+	}
+
 }
