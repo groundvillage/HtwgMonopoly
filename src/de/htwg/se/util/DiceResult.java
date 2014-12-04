@@ -11,6 +11,8 @@ public class DiceResult {
 		if(checkDiceValue(d1) && checkDiceValue(d2)) {
 			dice1 = d1;
 			dice2 = d2;
+		} else {
+			throw new IllegalArgumentException(MINDICEVALUE + " < Dicevalue < " + MAXDICEVALUE);
 		}
 	}
 	
