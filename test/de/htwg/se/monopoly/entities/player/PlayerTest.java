@@ -17,11 +17,12 @@ public class PlayerTest {
 	
 	@Test
 	public void testGetName() {
-		assertTrue(player.getName().equals("Peter"));
+		assertEquals(player.getName(), "Peter");
 	}
 	
-	public void testGetDeposit() {
-		assertTrue(player.getDeposit() == 2000);
+	@Test
+	public void testGetAssets() {
+		assertEquals(player.getAssets(), 2000);
 	}
 	
 }

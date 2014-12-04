@@ -3,12 +3,12 @@ package de.htwg.se.monopoly.entities.player;
 public class Player {
 
 	private String name;
-	private int deposit;
+	private int assets;
 	
 	
-	public Player(final String name, final int deposit) {
+	public Player(final String name, final int assets) {
 		this.name = name;
-		this.deposit = deposit;
+		this.assets = assets;
 	}
 	
 	
@@ -17,7 +17,7 @@ public class Player {
 		return name;
 	}
 	
-	public int getDeposit() {
-		return deposit;
+	public int getAssets() {
+		return assets;
 	}
 }
